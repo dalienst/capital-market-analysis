@@ -1,0 +1,17 @@
+1. Data Preprocessing:
+
+Read the datasets for the market index (NSE), CBK rates, and individual companies (Safaricom, Absa, and EABL).
+Convert the date columns to the datetime format for time-series analysis.
+Handle missing values and any inconsistencies in the data.
+
+2. Exploratory Data Analysis:
+
+Calculate market returns for the NSE index and individual stock returns for Safaricom, Absa, and EABL.
+Calculate correlations between the market index and individual stocks.
+Calculate beta coefficients using regression analysis.
+Analyze the risk-free rates from the CBK dataset.
+
+3. Modeling & Visualisations:
+
+Predict stock prices using the regression model.
+Create various visualizations to present the analysis results, including line charts, scatter plots, heatmaps, and histograms.
